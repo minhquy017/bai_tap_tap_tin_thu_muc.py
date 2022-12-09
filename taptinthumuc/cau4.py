@@ -3,6 +3,6 @@ import os
 def tao_thu_muc():
 
     path='E:/data'
-    os.mkdir('../nnlt')
+    os.mkdir('E:/file/nnlt')
     print(os.listdir(path))
 z=tao_thu_muc()
